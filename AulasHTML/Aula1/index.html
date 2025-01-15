@@ -6,38 +6,56 @@
     <title>Meu HTML</title>
     <style>
         *{
-            margin:0;
+            margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        .section-one{
-            width: 300px;
-            height: 150px;
-            border-style:solid;
-            border-width: 10px;
-            border-bottom-color: firebrick;
-            border-top-color:aquamarine;
-            border-left-color: blueviolet;
-            border-right-color:deeppink;
-            background-color: deeppink;
-            background-image: url(https://www.shutterstock.com/image-photo/calm-weather-on-sea-ocean-600nw-2212935531.jpg);
-            background-size: cover;
-            background-position: center;
-            padding: 15px;
-            margin: 20px;
+        nav{
+            background-color: red;
         }
-        .section-two{
-            background: cyan;
-            width: 300px;
-            height: 150px;
-            order:5px solid black;
-            padding: 15px;
-            margin: 20px;
+        nav a{
+            color: white;
+            text-decoration: none;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding:10px 20px;
+            display: block;
+            text-transform: uppercase;
+        }
+        nav a:hover{
+            background-color: rgba(0,0,0,0.70);
+        }
+        nav ul{
+            display:flex;
+            flex-direction: row;
+            list-style: none;
+            align-items:center;
         }
     </style>
 </head>
 <body>
-    <section class="section-one">1</section>
-    <section class="section-two">2</section>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+        </ul>
+    </nav>
+    <ul>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 1</li>
+    </ul>
+    <br>
+    <ol type="1" start="20">
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 1</li>
+    </ol>
+    <dl>
+        <dt>Café</dt>
+        <dd>Bebida preta quente</dd>       
+        <dt>Leite</dt>
+        <dd>Bebida branca fria</dd>
+    </dl>
 </body>
 </html>
