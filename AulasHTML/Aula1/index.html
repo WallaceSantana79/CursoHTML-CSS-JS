@@ -6,97 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu HTML</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: sans-serif;
-        }
-
-        body p {
-            margin-bottom: 20px;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 800px;
-            text-align: left;
-        }
-
-        table td,
-        table th {
-            border: 1px solid #ccc;
-            padding: 5px;
-        }
-
-        table thead tr th {
-            background: rgb(138, 57, 57);
-        }
-
-        table caption {
-            caption-side: bottom;
-            text-align: left;
-            margin-top: 5px;
-            font-style: italic;
-            font-size: 14px;
-        }
-
-        table tfoot td {
-            background: #ddd;
-            font-style: italic;
-        }
-
-        .colspan {
-            text-align: center;
-        }
-        .responsive-table{
-            overflow-x: auto;
+        label{
+            cursor: pointer;
         }
     </style>
 </head>
 
 <body>
-    <p>Lorem ipsum dolor sit.</p>
-    <div class="responsive-table">
-        <table>
-            <caption>Uma descrição para tabela</caption>
-            <thead>
-                <tr>
-                    <th>Título 1</th>
-                    <th>Título 2</th>
-                    <th>Título 3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Corpo 1</td>
-                    <td>Corpo 2</td>
-                    <td>Corpo 3</td>
-                </tr>
-                <tr>
-                    <td colspan="2" ; class="colspan">AQUI</td>
-                    <td>Corpo 3</td>
-                </tr>
-                <tr>
-                    <td>Corpo 1</td>
-                    <td>Corpo 2</td>
-                    <td>Corpo 3</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="2" rowspan="2"></td>
-                    <td>Total:</td>
-                </tr>
-                <tr>
-                    <td>R$ 555</td>
-                </tr>
-            </tfoot>
-        </table>
-    </div>
+
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>O meu formulário</p>
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">          
+        </p>
+        <p>
+            <label for="dev1">Sou um dev:</label>
+            <input type="checkbox" id="dev" value="sim"><br>       
+
+            <label for="dev2">Sou um dev:</label>
+            <input type="checkbox" id="dev2" value="sim"><br>       
+
+            <label for="dev3">Sou um dev:</label>
+            <input type="checkbox" id="dev3" value="sim">     
+        </p>  
+        <p>
+            Gênero:<br><br>
+            <label for="Feminino">Feminino:</label>
+            <input type="radio" id="Feminino" name="genero" value="Feminino"><br>       
+
+            <label for="masculino">Masulino:</label>
+            <input type="radio" id="masculino" name="masculino" value="masculino"><br>       
+
+            <label for="mutante">Mutante:</label>
+            <input type="radio" id="mutante" name="mutante" value="mutante">     
+        </p>   
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
 </body>
 
 </html>
