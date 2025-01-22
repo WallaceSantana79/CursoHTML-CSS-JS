@@ -3,13 +3,12 @@
     padding: 0;
 
 }
-.pai h1+p {
+
+[meu-atributo="valor"]{
     color: red;
 }
 
-.pai .um~.dois{
-    color: red;
-    background-color: yellow;
-    margin: 5px;
+[checked]{
+    width: 50px;
+    height: 50px;
 }
-
