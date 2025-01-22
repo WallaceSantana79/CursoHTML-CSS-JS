@@ -1,15 +1,4 @@
-ul li:nth-child(odd){
-    background-color: rebeccapurple;
-}
-
-ul li:nth-child(even){
-    background-color: salmon;
-}
-
-ul li:nth-child(3n){
-    background-color: darkturquoise;
-}
-
-ul li:nth-child(3n+10){
-    background-color: darkmagenta;
+.place-holder::placeholder{
+    font-size:15px;
+    color: red;
 }
