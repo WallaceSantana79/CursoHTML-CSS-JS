@@ -7,7 +7,9 @@
     color: red;
 }
 
-.pai h1~p{
-    color: yellow;
+.pai .um~.dois{
+    color: red;
+    background-color: yellow;
+    margin: 5px;
 }
 
