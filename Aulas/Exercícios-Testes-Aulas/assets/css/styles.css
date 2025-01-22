@@ -4,8 +4,16 @@
 
 }
 
-[meu-atributo="valor"]{
+[meu-atributo^="c"]{
     color: red;
+}
+
+[meu-atributo$="nda"]{
+    color: yellow;
+}
+
+[meu-atributo*="isa outr"]{
+    color: purple;
 }
 
 [checked]{
