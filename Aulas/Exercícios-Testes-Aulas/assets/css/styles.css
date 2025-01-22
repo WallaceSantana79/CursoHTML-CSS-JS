@@ -1,29 +1,10 @@
-/*
-ID     Classes, atributose pseudo-classes       Elementos e pseudo elementos. 
-(X,                 X,                                       X)
-
-especificidade
-empate
-style
-!important
- */
-
-#p{
-    background: red;
+#texto{
+    color: red;
+    font-family: sans-serif;
+    font-size: 70px;
 }
 
-#p.p{
-    background: yellow !important; 
-}
-
-p#p.p{
-    background: darkviolet;
-}
-
-#b p#p.p{
-    background: darkcyan;
-}
-
-body#b.bclass p#p.p{
-    background: darkorange;
+p{
+    font-size: initial;
+    color: initial;
 }
