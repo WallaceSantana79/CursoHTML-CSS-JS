@@ -1,42 +1,15 @@
-.heading{
-    transition: all 1s ease-in-out;
-}
-.heading:hover{
-    background: red;
+ul li:nth-child(odd){
+    background-color: rebeccapurple;
 }
 
-a {
-    color: darkorange;
+ul li:nth-child(even){
+    background-color: salmon;
 }
 
-a:link{
-    color:deeppink
+ul li:nth-child(3n){
+    background-color: darkturquoise;
 }
 
-a:visited{
-    color: cyan;
-}
-
-a:hover{
-    color: darkslateblue;
-    color: white;
-    text-decoration: none;
-}
-
-a:active{
-    color: darkviolet;
-    color: white;
-    text-decoration: none;
-}
-
-.pai .lista li:first-child{
-    background:red
-}
-
-.pai .lista li:last-child{
-    background:purple
-}
-
-input:required {
-    background: black;
+ul li:nth-child(3n+10){
+    background-color: darkmagenta;
 }
