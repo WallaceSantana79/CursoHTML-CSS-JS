@@ -1,4 +1,29 @@
-.place-holder::placeholder{
-    font-size:15px;
-    color: red;
+/*
+ID     Classes, atributose pseudo-classes       Elementos e pseudo elementos. 
+(X,                 X,                                       X)
+
+especificidade
+empate
+style
+!important
+ */
+
+#p{
+    background: red;
+}
+
+#p.p{
+    background: yellow !important; 
+}
+
+p#p.p{
+    background: darkviolet;
+}
+
+#b p#p.p{
+    background: darkcyan;
+}
+
+body#b.bclass p#p.p{
+    background: darkorange;
 }
