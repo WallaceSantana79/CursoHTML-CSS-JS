@@ -29,6 +29,14 @@ a:active{
     text-decoration: none;
 }
 
-input:checked + p{
-    background: red;
+.pai .lista li:first-child{
+    background:red
+}
+
+.pai .lista li:last-child{
+    background:purple
+}
+
+input:required {
+    background: black;
 }
