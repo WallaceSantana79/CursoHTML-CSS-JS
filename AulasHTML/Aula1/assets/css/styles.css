@@ -1,5 +1,13 @@
-.caixa {
-    background: red;
-    height: 120px;
-    width: 120px;
+*{
+    margin: 0;
+    padding: 0;
+
 }
+.pai h1+p {
+    color: red;
+}
+
+.pai h1~p{
+    color: yellow;
+}
+
