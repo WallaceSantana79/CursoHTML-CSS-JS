@@ -6,20 +6,16 @@
 
 .flex-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
     background: yellow;
-    height: 500px;
-    gap:30px;
+    height: 640px;
 }
 
 .flex-item{
+    width: 33.33%;
     color: white;
     background: red;
-    margin: 10px;
-}
-
-.flex-item:nth-child(3){
-    font-size:40px;
 }
