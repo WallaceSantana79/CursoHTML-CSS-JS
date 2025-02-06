@@ -3,4 +3,4 @@ const num2 = Number(prompt("Digite um segundo número:"))
 
 
 
-const resultado = alert(`O resultado foi ${num1 + num2}`)
+const resultado = alert(`O resultado foi: ${num1 + num2}`)
