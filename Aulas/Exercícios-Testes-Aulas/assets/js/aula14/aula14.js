@@ -44,7 +44,7 @@ let num4 = 0.1 //number
 // console.log(Number.isInteger(num3));
 
 
-// Temos outra forma também e eu acho essa melhor
+// Temos outra forma também 
 num3 = ((num3*100) + (num4 *100)) /100;
 num3 = ((num3*100) + (num4 *100)) /100;
 num3 = ((num3*100) + (num4 *100)) /100;
